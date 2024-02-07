@@ -1,3 +1,20 @@
 body {
-    background-color: skyblue;
+    background-color: #BFA07A;
+    overflow-x: hidden;
+}
+nav {
+    background-color: #261201;
+}
+footer{
+    background-color: #261201;
+}
+img{
+    width: 500px;
+}
+.navbar2{
+    background-color: #261201;
+    border-color: white;
+}
+.fond{
+    background-color: #BF946F;
 }

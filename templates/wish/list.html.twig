@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="d-flex justify-content-center flex-column card container p-3 shadow-sm my-5 fond">
+        <h1 class="d-flex justify-content-center my-3">Ma Bucket-List :</h1>
+        {% for chien in tp %}
+            <ul class="class=list-group text-center">
+                <li class="list-group-item text-center">- {{ chien }}</li>
+            </ul>
+        {% endfor %}
+    </div>
+{% endblock %}
